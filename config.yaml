@@ -1,0 +1,11 @@
+path: '/mnt/data' # dataset root dir
+train: '/mnt/data/images'  # train images (relative to 'path')
+val: '/mnt/data/images'  # val images (relative to 'path')
+
+# Classes
+names:
+  0: No helmet
+  1: No vest
+  2: Person 
+  3: helmet 
+  4: vest
